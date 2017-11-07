@@ -29,9 +29,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="server.js" />
+    <Content Include="css\site.css" />
+    <Content Include="fonts\segoeuil.ttf" />
+    <Content Include="img\cloneWhite.svg" />
+    <Content Include="img\deployWhite.svg" />
+    <Content Include="img\lightbulbWhite.svg" />
+    <Content Include="img\stackWhite.svg" />
+    <Content Include="img\successCloudNew.svg" />
+    <Content Include="img\tweetThis.svg" />
     <Content Include="index.html" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="fonts\" />
+    <Folder Include="img\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
