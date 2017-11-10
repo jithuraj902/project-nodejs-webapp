@@ -1,5 +1,5 @@
 var http = require('http');
-var port = process.env.port || 80;
+var port = process.env.port || 1337;
 var fs = require("fs");
 var url = require("url");
 var path = require("path");
