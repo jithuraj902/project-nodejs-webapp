@@ -5,9 +5,7 @@
 
 # Sample Nodejs web application
 
-This is a sample Nodejs web application that you can use to deploy on Azure.
-
-This sample application is built using Visual Studio 2017.
+Sample Nodejs web application built using Visual Studio 2017.
 
 ## License
 
